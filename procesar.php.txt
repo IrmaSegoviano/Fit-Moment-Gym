@@ -1,0 +1,12 @@
+<?php
+
+$nombre = $_POST ['nombre'];
+$anodenacimiento = $_POST ['nacido'];
+
+echo "<h2>SUS DATOS</h2>";
+echo "</br>";
+echo "Nombre:". $nombre;
+echo "</br>";
+echo "Nacido en:". $nacido;
+
+?>
